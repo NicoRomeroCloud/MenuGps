@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+
+    <title>GPS</title>
+</head>
+
+<body>
+    <nav class="menu" id="menu">
+        <div class="contenedor contenedor-botones-menu">
+            <button id="btn-menu-barras" class="btn-menu-barras"><i class="fas fa-bars"></i></button>
+            <button id="btn-menu-cerrar" class="btn-menu-cerrar"><i class="fas fa-times"></i></button>
+        </div>
+
+        <div class="contenedor contenedor-enlaces-nav">
+            <div class="btn-departamentos" id="btn-departamentos">
+                <p>Todos los <span>Ramos de ICI</span></p>
+                <i class="fa fa-caret-down"></i>
+            </div>
+
+            <div class="enlaces">
+                <a href="#">Cuenta</a>
+                <a href="#">Cuenta2</a>
+                <a href="#">Cuenta3</a>
+                <a href="#">Cuenta4</a>
+            </div>
+
+        </div>
+
+        <div class="contenedor contenedor-grid">
+            <div class="grid activo" id="grid">
+                <div class="categorias">
+                    <button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+                    <h3 class="subtitulo">Asignaturas Ing. Civil en Informática</h3>
+                    <a href="#" data-categoria="primer-año">Primer Año Primer Semestre <i class="fas fa-angle-right"></i></a>
+                    <a href="#" data-categoria="primer-año">Primer Año Segundo Semestre<i class="fas fa-angle-right"></i></a>
+                    <a href="#" data-categoria="segundo-año">Segundo Año Primer Semestre<i class="fas fa-angle-right"></i></a>
+                    <a href="#" data-categoria="segundo-año">Segundo Año Segundo Semestre<i class="fas fa-angle-right"></i></a>
+
+                    <a href="#" data-categoria="tercero-año">Tercer Año Primer Semestre<i class="fas fa-angle-right"></i></a>
+                    <a href="#" data-categoria="tercero-año">Tercer Año Segundo Semestre<i class="fas fa-angle-right"></i></a>
+
+                    <a href="#" data-categoria="cuarto-año">Cuarto Año Primer Semestre<i class="fas fa-angle-right"></i></a>
+                    <a href="#" data-categoria="cuarto-año">Cuarto Año Segundo Semestre<i class="fas fa-angle-right"></i></a>
+
+                    <a href="#" data-categoria="formaciones-integrales">Formaciones Integrales <i class="fas fa-angle-right"></i></a>
+
+
+                </div>
+                <div class="contenedor-subcategorias ">
+
+                    <div class="subcategoria activo" data-categoria="primer-año">
+                        <div class="enlaces-subcategoria">
+                            <button class="btn-regresar"> <i class="fas fa-arrow-left"></i> </button>
+                            <h3 class="subtitulo"> Ramos Semestre 1: </h3>
+                            <a href="#"> Álgebra y trigonometría </a>
+                            <a href="#"> Introducción a la Ingeniería </a>
+                            <a href="#"> Comunicación Oral y Escrita</a>
+                            <a href="#"> Introducción a la Programación</a>
+
+                        </div>
+
+                        <div class="banner-subcategoria">
+                            <a href="#">
+                                <img src="img/java.jpg" alt="">
+                            </a>
+                        </div>
+
+                        <div class="galeria-subcategoria">
+                            <a href="#">
+                                <img src="img/comunicacion.jpg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="img/baldor.jpg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="img/progra.jpg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="img/intro.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+
+    <main class="contenedor">
+        <article>
+        </article>
+    </main>
+    <script src="https://kit.fontawesome.com/1fb65ec9f6.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
